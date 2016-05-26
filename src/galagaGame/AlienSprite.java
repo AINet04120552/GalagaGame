@@ -5,7 +5,7 @@ public class AlienSprite extends Sprite{
 	
 	public AlienSprite(GalagaGame game, Image imgae, int x, int y){
 		super(imgae, x, y);
-		this.game = game
+		this.game = game;
 		dx = -3; // 초기에는 왼쪽으로 이동한다.
 	}
 	
