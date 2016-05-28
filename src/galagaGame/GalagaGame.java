@@ -34,9 +34,9 @@ public class GalagaGame extends JPanel implements KeyListener{
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		try {	//이미지를 읽는다.
-			shotImage = ImageIO.read(new File("fire.jpg"));
-			shipImage = ImageIO.read(new File("starship.jpg"));
-			alienImage = ImageIO.read(new File("alien.jpg"));
+			shotImage = ImageIO.read(new File("fire.jpeg"));
+			shipImage = ImageIO.read(new File("starship.jpeg"));
+			alienImage = ImageIO.read(new File("alien.jpeg"));
 		} catch (IOException e){
 			e.printStackTrace();
 		}
