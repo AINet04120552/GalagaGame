@@ -137,7 +137,6 @@ public class GalagaGame extends JPanel implements KeyListener{
 		GalagaGame g = new GalagaGame();
 		g.gameLoop();
 	}
-
 	@Override
 	public void keyReleased(KeyEvent e) {
 		// TODO Auto-generated method stub
